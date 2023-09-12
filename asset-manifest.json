@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.eed65cf9.css",
+    "main.js": "/resume/static/js/main.48a52ed6.js",
+    "static/js/787.7c4fc8d6.chunk.js": "/resume/static/js/787.7c4fc8d6.chunk.js",
+    "static/media/user1.jpg": "/resume/static/media/user1.0664415770771f37e4e6.jpg",
+    "static/media/P3.jpg": "/resume/static/media/P3.2063175fda530478693a.jpg",
+    "static/media/login.png": "/resume/static/media/login.021e208c11ee6ad570fa.png",
+    "static/media/user.png": "/resume/static/media/user.0eeae7aac592d13dffb2.png",
+    "static/media/P4.jpg": "/resume/static/media/P4.a8247a974c771c11fbea.jpg",
+    "static/media/P1.jpg": "/resume/static/media/P1.8aaa847dd13601ba19d4.jpg",
+    "static/media/color.png": "/resume/static/media/color.476b07f7600c093a5639.png",
+    "static/media/weather.jpg": "/resume/static/media/weather.c192462a73850dec30eb.jpg",
+    "static/media/P5.jpg": "/resume/static/media/P5.8c54a71cade0f3e889e9.jpg",
+    "static/media/quiz.png": "/resume/static/media/quiz.d158765aebef706725af.png",
+    "static/media/card.jpg": "/resume/static/media/card.8dffd76a6efe440acf43.jpg",
+    "static/media/slider.jpg": "/resume/static/media/slider.6c706fea8f6aa6d250da.jpg",
+    "static/media/bascket.jpg": "/resume/static/media/bascket.2d0efc75e293521cc256.jpg",
+    "index.html": "/resume/index.html",
+    "main.eed65cf9.css.map": "/resume/static/css/main.eed65cf9.css.map",
+    "main.48a52ed6.js.map": "/resume/static/js/main.48a52ed6.js.map",
+    "787.7c4fc8d6.chunk.js.map": "/resume/static/js/787.7c4fc8d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eed65cf9.css",
+    "static/js/main.48a52ed6.js"
+  ]
+}
