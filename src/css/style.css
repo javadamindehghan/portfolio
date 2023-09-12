@@ -1,0 +1,300 @@
+body{
+    direction: rtl;
+   
+}
+
+.header{
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e8e6;
+    padding: 0 40px 0 40px;
+   
+    top: 0;
+    right: 0;
+}
+.nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.nav>ul{
+    width:500px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav>ul>li{
+    text-decoration: none;
+    width: 100px;
+    position: relative;
+    font-size: 16px;
+    padding: 12px 0 12px 0;
+    
+  
+    
+} 
+.nav>ul>li{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;;
+}
+.nav>ul>{text-decoration: none;}
+
+
+.nav>ul>li::after{
+    content: "";
+    width: 0;
+    bottom: 0px;
+    height: 3px;
+    position: absolute;
+    right: 0px;
+    background-color: aqua;
+    transition: all 5s;
+    transition:  width .5s;
+  
+
+}
+.nav>ul>li.active::after{
+    width: 40px;
+}
+.bsnner-img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.content-home{
+    overflow: hidden;
+    height: 580px;
+ background-image: url(../img/user1.jpg);
+background-size: 100% 580px;
+background-attachment: scroll;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+width: auto;
+   
+   
+    
+  
+}
+
+@keyframes example {
+    from {transform: scale(1);}
+    to {transform:scale(1.5);}
+  }
+
+.content-home h2{ 
+    text-align: center !important;
+    margin-bottom: 40px; 
+    color: gray;
+    width: 340PX;
+    animation-name: example;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    font-size: 11PX !important;
+}
+.content-home Button{
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+    animation-name: example;
+}
+
+
+
+.bsnner-img .content-home .MuiButton-root{
+    border-radius: 30px;
+    font-size: 14px;
+}
+.Abouttop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Abouttop h1{
+    position: relative;
+    padding-bottom:15px;
+}
+
+.Abouttop h1::after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
+    transform: translateX(-50%);
+}
+.Abouttop p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ulleft,.ulright{
+    list-style: none;
+    text-align: left;
+}
+.userimage{
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+.userimage img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    
+    
+}
+.myname{
+    text-align: center;
+    margin: 20px;
+}
+.aboutskills{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutskills p{
+    text-align: center;
+}
+.skillPercentage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   padding: 0 20px 0 20px;
+   
+}
+.parentPercentage{
+    margin: 0 20px 0 20px;
+    height: 10px;
+    width: 90%;
+   border: 1px solid black;
+   margin-bottom: 50px;
+
+}
+.fillPercentage{
+    height: 100%;
+    width: 0;
+    
+    background-color: blue;
+    transition: width .5s ease-in;
+
+    
+    
+}
+.fillPercentage.active{
+    width: 100%;
+}
+.portfolio-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.portfolio-top h1{
+    position: relative;
+    padding-bottom:15px;
+}
+
+.portfolio-top h1::after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+.item-img{
+height: 300px;
+display:inline-block;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+
+
+}
+.item-img img{
+   height: 100%;
+   width:350px;
+   display: flex;
+  
+   
+
+}
+
+
+
+.after{
+    height: 120%;
+    width: 350px;
+    background-color: aquamarine;
+    opacity: .2;
+    position: absolute;
+    border-radius: 100%;
+    
+    top: 0;
+    transition: all .5s ease-in;
+   
+}
+
+
+.item-img:hover>.after{
+    height: 120%;
+    width: 350px;
+    background-color: aquamarine;
+    opacity: .4;
+    position: absolute;
+    border-radius: 100%;
+    top: -150px;
+    
+   
+}
+.item-img>p{
+    position: absolute;
+    right: -80%;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    transition: ease-in .6s all;
+    color: aqua;
+    font-size:24px;
+    
+    
+}
+.item-img:hover>p{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+.myinfo p{
+    text-align: left;
+    padding-left: 40px;
+}
+.myinfo h3{
+    text-align: left;
+    padding-left: 40px;
+}
